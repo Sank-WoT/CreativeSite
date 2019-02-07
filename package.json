@@ -1,0 +1,17 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "A Pen created at CodePen.io. You can find this one at https://codepen.io/Sank_WoT/pen/YBrjgZ.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-static": "^5.0.0",
+    "swig": "^1.4.2"
+  }
+}

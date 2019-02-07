@@ -1,7 +1,11 @@
-var typed = new Typed('#typed', {
-  stringsElement: '#typed-strings'
-});
+import Typed from 'typed.js';
 
+var options = {
+  strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
+  typeSpeed: 40
+}
+
+var typed = new Typed(".element", options);
 $(function() {
   var elem = $.jInvertScroll(
     [".scroll", ".container"], // an array containing the selector(s) for the elements you want to animate
